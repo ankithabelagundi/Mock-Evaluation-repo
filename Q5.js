@@ -6,8 +6,11 @@ let user = {
     geo: { lat: 11.22, lng: 77.33 }
   }
 };
-const{ name, address:{city, pin, geo} } =user;
+const{ name, address:{city, pin, geo:
+    { lat, lng}
+} } =user;
 console.log(name);
 console.log(city);
 console.log(pin);
-console.log(geo);
+console.log(lat);
+console.log(lng);
