@@ -12,5 +12,6 @@ return true;
 }
 let sum = nums.reduce((a,b)=> a+b,0);
 console.log(sum);
-nums.sort((a,b)=>a-b);
+nums.sort((a,b)=>b-a);
 console.log(nums);
+
